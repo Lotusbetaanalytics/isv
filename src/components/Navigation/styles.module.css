@@ -1,0 +1,139 @@
+.navigation {
+    width: 100%;
+    height: 5rem;
+    background: white;
+    padding: .5rem 10rem;
+    top: 0;
+    position: sticky
+}
+
+.logo {
+    width: 20%;
+    height: 4rem;
+    overflow: hidden;
+    float: left;
+}
+
+.logo img {
+    width: 10%;
+    float: left;
+    margin-right: 1rem
+}
+
+.logo h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 1rem
+}
+
+.btn {
+    padding: .5rem 1rem;
+    background: #5CC6D0;
+    border-radius: 10px;
+    color: white;
+    float: right;
+    text-decoration: none
+}
+
+
+
+
+/* phone-only */
+@media (max-width: 599px) {
+
+    .navigation {
+        padding: .5rem 1rem;
+    }
+
+    .logo {
+        width: 50%;
+    }
+}
+
+/* .tablet-portrait-up  */
+@media (min-width: 600px) {
+    .navigation {
+        padding: .5rem 2rem;
+    }
+
+    .logo {
+        width: 40%;
+    }
+}
+
+/* tablet-portait-only */
+@media (min-width: 600px) and (max-width: 899px) {
+    .navigation {
+        padding: .5rem 3rem;
+    }
+
+    .logo {
+        width: 30%;
+    }
+}
+
+/* tablet-landscape-up */
+@media (min-width: 900px) {
+    .navigation {
+        padding: .5rem 5rem;
+    }
+
+    .logo {
+        width: 30%;
+    }
+}
+
+/* tablet-landscape-only */
+@media (min-width: 900px) and (max-width: 1199px) {
+    .navigation {
+        padding: .5rem 10rem;
+    }
+
+    .logo {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .navigation {
+        padding: .5rem 10rem;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+}
+
+/* .desktop-up */
+@media (min-width: 1300px) {
+    .navigation {
+        padding: .5rem 10rem;
+    }
+
+    .logo {
+        width: 30%;
+    }
+}
+
+/* desktop-only */
+@media (min-width: 1300px) and (max-width: 1799px) {
+    .navigation {
+        padding: .5rem 10rem;
+    }
+
+    .logo {
+        width: 30%;
+    }
+}
+
+/* big-desktop-up */
+@media (min-width: 1800px) {
+    .navigation {
+        padding: .5rem 10rem;
+    }
+
+    .logo {
+        width: 30%;
+    }
+}

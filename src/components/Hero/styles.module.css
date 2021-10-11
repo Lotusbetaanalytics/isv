@@ -1,0 +1,162 @@
+.hero {
+    width: 100%;
+    min-height: 40rem;
+    height: auto;
+    background: url('../../assets/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 0 2rem;
+    color: white;
+}
+
+.smHero {
+    width: 50%;
+    height: auto;
+    height: 40rem;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 5rem 3rem;
+}
+
+.smHero h1 {
+    font-size: 3rem
+}
+
+.smHero p {
+    line-height: 2rem;
+    font-size: 20px
+}
+
+.smHero img {
+    width: 40%
+}
+
+.btn {
+    padding: 1rem 2rem;
+    background: goldenrod;
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    margin-top: 3rem;
+}
+
+
+
+/* phone-only */
+@media (max-width: 599px) {
+    .hero {
+        min-height: 22rem;
+        height: auto;
+        padding: 0;
+    }
+
+    .smHero {
+        width: 100%;
+    }
+}
+
+/* .tablet-portrait-up  */
+@media (min-width: 600px) {
+    .hero {
+        min-height: 22rem;
+        height: auto;
+        padding: 0;
+    }
+
+    .smHero {
+        width: 100%;
+    }
+}
+
+/* tablet-portait-only */
+@media (min-width: 600px) and (max-width: 899px) {
+    .hero {
+        min-height: 22rem;
+        height: auto;
+        padding: 0rem 3rem;
+    }
+
+    .smHero {
+        width: 100%;
+    }
+}
+
+/* tablet-landscape-up */
+@media (min-width: 900px) {
+    .hero {
+        min-height: 25rem;
+        height: auto;
+        padding: 0rem 5rem;
+    }
+
+    .smHero {
+        width: 60%;
+    }
+}
+
+/* tablet-landscape-only */
+@media (min-width: 900px) and (max-width: 1199px) {
+    .hero {
+        min-height: 30rem;
+        height: auto;
+        padding: 0rem 8rem;
+    }
+
+    .smHero {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .hero {
+        min-height: 30rem;
+        height: auto;
+        padding: 0rem 8rem;
+    }
+
+    .smHero {
+        width: 50%;
+    }
+}
+
+/* .desktop-up */
+@media (min-width: 1300px) {
+    .hero {
+        min-height: 35rem;
+        height: auto;
+        padding: 0rem 10rem;
+    }
+
+    .smHero {
+        width: 50%;
+    }
+}
+
+/* desktop-only */
+@media (min-width: 1300px) and (max-width: 1799px) {
+    .hero {
+        min-height: 35rem;
+        height: auto;
+        padding: 0rem 10rem;
+    }
+
+    .smHero {
+        width: 50%;
+    }
+}
+
+/* big-desktop-up */
+@media (min-width: 1800px) {
+    .hero {
+        min-height: 35rem;
+        height: auto;
+        padding: 0rem 10rem;
+    }
+
+    .smHero {
+        width: 50%;
+    }
+}
