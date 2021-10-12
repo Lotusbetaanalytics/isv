@@ -12,8 +12,8 @@ const Footer = () => {
       <br />
       <p>
         Contact us via <br />
-        <a href="mailTo:businesssupport@lotusbetaanalytics.com">
-          businesssupport@lotusbetaanalytics.com
+        <a href="mailTo:isv@lotusbetaanalytics.com">
+          isv@lotusbetaanalytics.com
         </a>{" "}
         <br />
         or

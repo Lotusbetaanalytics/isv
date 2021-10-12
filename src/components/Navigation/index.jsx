@@ -12,7 +12,7 @@ const Navigation = () => {
                 <h3>Lotus Upcore</h3>
             </div>
             <Link className={`${styles.btn} ${styles.whiteBtn}`} to="/register">Register</Link>
-            <a href="mailTo:businesssupport@lotusbetaanalytics.com" className={styles.btn}>
+            <a href="mailTo:isv@lotusbetaanalytics.com" className={styles.btn}>
                 <FaPhoneAlt /> Contact
             </a>
 
