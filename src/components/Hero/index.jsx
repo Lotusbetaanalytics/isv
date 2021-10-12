@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './styles.module.css'
-import partner from '../../assets/partner.png'
+import partner from '../../assets/partner.jpg'
 import lban from '../../assets/lban.png'
 
 const Hero = () => {

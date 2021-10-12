@@ -1,0 +1,35 @@
+.contents {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 5rem;
+}
+
+.formGrid {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-gap: 2%;
+}
+
+.formContainer {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: .5rem;
+}
+
+.formContainer input {
+    width: 100%;
+    height: 3rem;
+    border-radius: 10px;
+    border: 1px solid gainsboro
+}
+
+.formContainer button {
+    padding: .5rem 3rem;
+    background: #5CC6D0;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+}
