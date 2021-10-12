@@ -32,16 +32,13 @@ const Contact = () => {
   if (success || error) {
     setTimeout(() => {
       dispatch({ type: USER_REGISTER_RESET });
+      setFirstname("");
+      setLastname("");
+      setBusinessName("");
+      setRole("");
+      setEmail("");
+      setMobile("");
     }, 6000);
-  }
-
-  if (success) {
-    setFirstname("");
-    setLastname("");
-    setBusinessName("");
-    setRole("");
-    setEmail("");
-    setMobile("");
   }
 
   return (
