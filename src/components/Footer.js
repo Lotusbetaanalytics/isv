@@ -1,15 +1,12 @@
 import React from "react";
 import styles from "./styles.module.css";
-
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className={styles.footer}>
-      <a
-        href="mailTo:businesssupport@lotusbetaanalytics.com"
-        className={styles.btn}
-      >
-        Let's get Started
-      </a>
+      <Link to="/register" className={styles.btn}>
+        Register
+      </Link>
       <br />
       <br />
       <br />
