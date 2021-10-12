@@ -6,18 +6,18 @@ import {
 } from "../constants/userConstants";
 
 export const registration =
-  (firstname, lastname, email, businessName, role, mobile) =>
+  (firstname, lastname, businessName, role, email, mobile) =>
   async (dispatch) => {
     dispatch({
       type: USER_REGISTER_REQUEST,
     });
     try {
-      const { data } = await Axios.post("/", {
+      const { data } = await Axios.post("/api/v1/contact/isv", {
         firstname,
         lastname,
-        email,
         businessName,
         role,
+        email,
         mobile,
       });
       dispatch({
